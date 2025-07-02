@@ -13,7 +13,7 @@ Uma Árvore de Decisão funciona criando uma estrutura semelhante a um fluxogram
 Para este projeto, foram seguidas as seguintes etapas:
 1.  **Preparação dos Dados**: Carregamento dos dados de treino (`X_train`, `y_train`) e teste (`X_test`, `y_test`), garantindo a consistência e o balanceamento das classes no conjunto de treino.
 2.  **Treinamento do Modelo Completo**: Um primeiro modelo de `DecisionTreeClassifier` (com critério 'gini' e `random_state=0`) foi treinado utilizando todas as features disponíveis.
-3.  **Avaliação e Análise de Features**: O modelo completo foi avaliado no conjunto de teste, e suas features mais importantes foram identificadas. A árvore também foi visualizada para entender sua estrutura e profundidade (4 níveis).
+3.  **Avaliação e Análise de Features**: O modelo completo foi avaliado no conjunto de teste, e suas features mais importantes foram identificadas. A árvore também foi visualizada para entender sua estrutura e profundidade (5 níveis).
 4.  **Treinamento do Modelo Reduzido**: Um segundo modelo foi treinado apenas com as duas features mais relevantes (`Income` e `HomeOwnership_Encoded`) para avaliar se um modelo mais simples poderia manter uma performance competitiva.
 5.  **Comparação de Resultados**: Os resultados dos dois modelos de árvore foram analisados e comparados, tanto entre si quanto com o modelo Naive Bayes do projeto anterior.
 
